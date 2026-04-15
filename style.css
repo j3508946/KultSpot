@@ -1,0 +1,70 @@
+/* Alapbeállítások */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    /* Ez biztosítja, hogy minden szöveg középen legyen */
+    text-align: center;
+}
+
+/* Fejléc */
+header {
+    background-color: #001f3f; /* Sötétkék */
+    color: #FBC5D8;
+    padding: 2rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FBC5D8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* A tartály, ami összefogja a szekciókat */
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Vízszintes középre igazítás */
+    padding: 40px 20px;
+    
+    /* Ha Flexboxot használsz, a column (oszlop) irány kényszeríti 
+       az elemeket egymás alá */
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Távolság a szekciók között */
+}
+
+/* Szekciók stílusa */
+section {
+    width: 100%; /* Kitölti a container szélességét */
+}
+
+h2 {
+    margin-bottom: 15px;
+    color:  #D988C1; /* Sötét rózsaszín / Mályva */
+}
+
+/* Lábléc */
+footer {
+    color: #FBC5D8;
+    padding: 20px;
+    background-color: #001f3f;
+    margin-top: auto;
+}
