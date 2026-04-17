@@ -68,3 +68,26 @@ footer {
     background-color: #001f3f;
     margin-top: auto;
 }
+
+.project-info {
+    text-align: left; /* Felülbíráljuk a középre igazítást */
+    max-width: 100%;
+}
+
+.project-info h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #D988C1;
+    font-size: 1.3rem;
+}
+
+.project-info p {
+    margin-bottom: 15px; /* Térköz a bekezdések között */
+    text-align: justify; /* Opcionális: sorkizárttá teszi a szöveget a szebb megjelenésért */
+}
+
+/* Ha a főcímet mégis középen hagynád, ezt törölheted: */
+.project-info h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
